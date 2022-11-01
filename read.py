@@ -1,7 +1,7 @@
 from PIL import Image
 
 print("Opening image")
-img = Image.open('testimage.jpg')
+img = Image.open('img2.png')
 print("Image opened.\nLoading image")
 pix = img.load()
 print("Image loaded")
